@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<!--Page created for CIS124-->
+
+<html lang="en">
+
+    <head>
+        <title>Genre</title>
+        <meta charset="utf-8">
+        <link href="main.css" rel="stylesheet">
+        
+    </head>
+
+    <body>
+        <header>
+            <h1>Stevie Ray Vaughan & Double Trouble</h1>
+            <h2>Fan's Favorite Genre Form</h2>
+        </header>
+        
+        <nav>
+            <table>
+                <tr>
+                    <td><a href="index.html">Home</a></td>
+                    <td><a href="genre.html">Genre</a></td>
+                    <td><a href="index.html#bandMembers">The Band</a></td>
+                    <td><a href="index.html#bandInfo"> Band Info</a></td>
+                    <td><a href="index.html#favoriteAlbums">Favorite Albums</a></td>
+                </tr>
+            </table>
+        </nav>
+        
+        <main>
+            <form>
+                <fieldset>
+                    <legend>Name and Birthdate</legend>
+                    
+                    <div><label for="firstName" >First name:</label>
+                    <input type="text" id="firstName" required></div>
+                
+                    <div><label for="lastName" >Last name:</label>
+                    <input type="text" id="lastName" required></div>
+                    
+                    
+                
+                    <div><label for="birthdate">Birthdate:</label>
+                    <input type="date" id="birthdate"></div>
+                    
+                </fieldset>
+                
+                <fieldset>
+                    <legend>City and State</legend>
+                    
+                    <label for="city">City:</label>
+                    <input type="text" id="city" required>
+                    
+                    
+                    <select name="state">
+                        <option value="Alabama">Alabama</option>
+                        <option value="Alaska">Alaska</option>
+                        <option value="Arizona">Arizona</option>
+                        <option value="Arkansas">Arkansas</option>
+                        <option value="California">California</option>
+                        <option value="Colorado">Calorado</option>
+                        <option value="Connecticut">Connecticut</option>
+                        <option value="Delaware">Delaware</option>
+                        <option value="Florida">Florida</option>
+                        <option value="Georgia">Georgia</option>
+                        <option value="Hawaii">Hawaii</option>
+                        <option value="Idaho">Idaho</option>
+                        <option value="Illinois">Illinois</option>
+                        <option value="Indiana">Indiana</option>
+                        <option value="Iowa">Iowa</option>
+                        <option value="Kansas">Kansas</option>
+                        <option value="Kentucky">Kentucky</option>
+                        <option value="Louisiana">Louisiana</option>
+                        <option value="Maine">Maine</option>
+                        <option value="Maryland">Maryland</option>
+                        <option value="Massachusetts">Massachusetts</option>
+                        <option value="Michigan">Michigan</option>
+                        <option value="Minnesota">Minnesota</option>
+                        <option value="Mississippi">Mississippi</option>
+                        <option value="Missouri">Missouri</option>
+                        <option value="Montana">Montana</option>
+                        <option value="Nebraska">Nebraska</option>
+                        <option value="Nevada">Nevada</option>
+                        <option value="New Hampshire">New Hampshire</option>
+                        <option value="New Jersey">New Jersey</option>
+                        <option value="New Mexico">New Mexico</option>
+                        <option value="New York">New York</option>
+                        <option value="North Carolina">North Carolina</option>
+                        <option value="North Dakota">North Dakota</option>
+                        <option value="Ohio">Ohio</option>
+                        <option value="Oklahoma">Oklahoma</option>
+                        <option value="Oregon">Oregon</option>
+                        <option value="Pennsylvania">Pennsylvania</option>
+                        <option value="Rhode Island">Rhode Island</option>
+                        <option value="South Carolina">South Carolina</option>
+                        <option value="South Dakota">South Dakota</option>
+                        <option value="Tennessee">Tennessee</option>
+                        <option value="Texas">Texas</option>
+                        <option value="Utah">Utah</option>
+                        <option value="Vermont">Vermont</option>
+                        <option value="Virginia">Virginia</option>
+                        <option value="Washington">Washington</option>
+                        <option value="West Virginia">West Virginia</option>
+                        <option value="Wisconsin">Wisconsin</option>
+                        <option value="Wyoming">Wyoming</option>
+                        
+                    </select>
+                </fieldset>
+                
+                <fieldset>
+                    <legend>Favorite Genres</legend>
+                    
+                    <label for="blues">Blues</label>
+                    <input type="checkbox" name="blues" id="blues">
+                    
+                    <label for="caribbean">Caribbean</label>
+                    <input type="checkbox" name="caribbean" id="caribbean">
+                    
+                    <label for="comedy">Comedy</label>
+                    <input type="checkbox" name="comedy" id="comedy">
+                    
+                    <label for="country">Country</label>
+                    <input type="checkbox" name="country" id="country">
+                    
+                    <label for="electronic">Electronic</label>
+                    <input type="checkbox" name="electronic" id="electronic">
+                    
+                    <label for="flamenco">Flamenco</label>
+                    <input type="checkbox" name="flamenco" id="flamenco">
+                    
+                    <label for="hipHop">Hip hop</label>
+                    <input type="checkbox" name="hipHop" id="hipHop">
+                    
+                    <label for="jazz">Jazz</label>
+                    <input type="checkbox" name="jazz" id="jazz">
+                    
+                    <label for="latin">Latin</label>
+                    <input type="checkbox" name="latin" id="latin">
+                    
+                    <label for="pop">Pop</label>
+                    <input type="checkbox" name="pop" id="pop">
+                    
+                    <label for="RnBSoul">R&B and soul</label>
+                    <input type="checkbox" name="RnBSoul" id="RnBSoul">
+                    
+                    <label for="rock">Rock</label>
+                    <input type="checkbox" name="rock" id="rock">
+                    
+                    <label for="heavyMetal">Heavy Metal</label>
+                    <input type="checkbox" name="heavyMetal" id="heavyMetal">
+                    
+                </fieldset>
+                
+                <fieldset>
+                    <legend>Who's Your Favorite Guitarist?</legend>
+                    
+                    <label for="jimi">Jimi Hendrix</label>
+                    <input type="radio" name="guitarist" value="Jimi Hendrix" id="jimi">
+                    
+                    <label for="clapton">Eric Clapton</label>
+                    <input type="radio" name="guitarist" value="Eric Clapton" id="clapton">
+                    
+                    <label for="page">Jimmy Page</label>
+                    <input type="radio" name="guitarist" value="Jimmy Page" id="page">
+                    
+                    <label for="vanHalen">Eddie Van Halen</label>
+                    <input type="radio" name="guitarist" value="Eddie Van Halen" id="vanHalen">
+                    
+                    <label for="beck">Jeff Beck</label>
+                    <input type="radio" name="guitarist" value="Jeff Beck" id="beck">
+                    
+                    <label for="vaughan">Stevie Ray Vaughan</label>
+                    <input type="radio" name="guitarist" value="Stevie Ray Vaughan" id="vaughan">
+                    
+                    <label for="king">B.B. King</label>
+                    <input type="radio" name="guitarist" value="B.B. King" id="king">
+                    
+                    <label for="slash">Slash</label>
+                    <input type="radio" name="guitarist" value="Slash" id="slash">
+                    
+                    <label for="richards">Keith Richards</label>
+                    <input type="radio" name="guitarist" value="Keith Richards" id="richards">
+                    
+                    <label for="santana">Carlos Santana</label>
+                    <input type="radio" name="guitarist" value="Carlos Santana" id="santana">
+                    
+                    <label for="gilmour">David Gilmour</label>
+                    <input type="radio" name="guitarist" value="David Gilmour" id="gilmour">
+                    
+                    <label for="allman">Duane Allman</label>
+                    <input type="radio" name="guitarist" value="Duane Allman" id="allman">
+                    
+                    <label for="other">Other</label>
+                    <input type="radio" name="guitarist" value="Other" id="other">
+                    <input type="text" id="otherOne">
+                    
+                    
+                </fieldset>
+                
+                <fieldset>
+                    <legend>List Your Favorite Groups!</legend>
+                    <textArea id="favoriteBand"></textArea>
+                </fieldset>
+                
+                <fieldset>
+                    <legend>Email and Form Submit/Reset</legend>
+                    <div><label for="email">Email:</label>
+                    <input type="email" id="email"></div>
+                
+                    <div><input type="submit" value="Click to Submit">
+                    <input type="reset" value="Click to Reset"></div>
+                </fieldset>
+            </form>
+        </main>
+    
+    
+        
+        <footer>
+            <nav>
+                <ul>
+                    <li>Created by: Heath Bennett</li>
+                    <li><a href="mailto:hbennett614@students.ccsnh.edu">hbennett614@students.ccsnh.edu</a></li>
+                    <li>&copy; February 15, 2020</li>
+                    
+                </ul>
+            </nav>
+    
+        </footer>
+        
+    <script src="main.js"></script>
+    </body>
+
+        
+
+</html>
